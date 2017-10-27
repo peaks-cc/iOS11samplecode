@@ -30,23 +30,6 @@ class ViewController: UIViewController, ARSCNViewDelegate, ARSessionDelegate {
         sceneView.session.run(configuration)
     }
     
-    private func loadModel() -> SCNNode {
-        guard let scene = SCNScene(named: "duck.scn", inDirectory: "models.scnassets/duck") else {fatalError()}
-        
-        let modelNode = SCNNode()
-        
-        for child in scene.rootNode.childNodes {
-            modelNode.addChildNode(child)
-        }
-        
-        // .dae等のフォーマットからモデルを読み込む場合
-//        let url = Bundle.main.url(forResource: "filename", withExtension: "dae")!
-//        let sceneSource = SCNSceneSource(url: url, options: nil)!
-//        guard let modelNode = sceneSource.entryWithIdentifier("modelId", withClass: SCNNode.self) else {fatalError()}
-
-        return modelNode
-    }
-    
     // MARK: - ARSCNViewDelegate
     
     func renderer(_ renderer: SCNSceneRenderer, didAdd node: SCNNode, for anchor: ARAnchor) {
@@ -54,22 +37,17 @@ class ViewController: UIViewController, ARSCNViewDelegate, ARSessionDelegate {
         print("anchor:\(anchor), node: \(node), node geometry: \(String(describing: node.geometry))")
         
         // 平面ジオメトリを作成
-        let geometry = SCNPlane(width: CGFloat(planeAnchor.extent.x), height: CGFloat(planeAnchor.extent.z))
+        let geometry = SCNPlane(width: CGFloat(planeAnchor.extent.x),
+                                height: CGFloat(planeAnchor.extent.z))
         geometry.materials.first?.diffuse.contents = UIColor.yellow.withAlphaComponent(0.5)
         
         // 平面ジオメトリを持つノードを作成
         let planeNode = SCNNode(geometry: geometry)
         planeNode.transform = SCNMatrix4MakeRotation(-Float.pi / 2.0, 1, 0, 0)
 
-        // 仮想オブジェクトのノードを作成
-        let virtualObjectNode = loadModel()
-        
         DispatchQueue.main.async(execute: {
             // 検出したアンカーに対応するノードに子ノードとして持たせる
             node.addChildNode(planeNode)
-
-            // 仮想オブジェクトを乗せる
-            node.addChildNode(virtualObjectNode)
         })
     }
     
