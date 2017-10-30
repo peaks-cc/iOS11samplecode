@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8A230A7D1F691CCA0041D9CC /* models.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A230A7C1F691CCA0041D9CC /* models.scnassets */; };
 		8AD36D9F1F1CB759008FCBCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD36D9E1F1CB759008FCBCA /* AppDelegate.swift */; };
 		8AD36DA31F1CB759008FCBCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD36DA21F1CB759008FCBCA /* ViewController.swift */; };
 		8AD36DA61F1CB759008FCBCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AD36DA41F1CB759008FCBCA /* Main.storyboard */; };
@@ -16,7 +15,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8A230A7C1F691CCA0041D9CC /* models.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; name = models.scnassets; path = ../models.scnassets; sourceTree = "<group>"; };
 		8AD36D9B1F1CB759008FCBCA /* PlaneDetection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlaneDetection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AD36D9E1F1CB759008FCBCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8AD36DA21F1CB759008FCBCA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,7 +38,6 @@
 		8AD36D921F1CB759008FCBCA = {
 			isa = PBXGroup;
 			children = (
-				8A230A7C1F691CCA0041D9CC /* models.scnassets */,
 				8AD36D9D1F1CB759008FCBCA /* PlaneDetection */,
 				8AD36D9C1F1CB759008FCBCA /* Products */,
 			);
@@ -126,7 +123,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AD36DAB1F1CB759008FCBCA /* LaunchScreen.storyboard in Resources */,
-				8A230A7D1F691CCA0041D9CC /* models.scnassets in Resources */,
 				8AD36DA81F1CB759008FCBCA /* Assets.xcassets in Resources */,
 				8AD36DA61F1CB759008FCBCA /* Main.storyboard in Resources */,
 			);

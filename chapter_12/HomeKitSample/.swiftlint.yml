@@ -1,0 +1,11 @@
+line_length:
+  - 150
+type_body_length:
+  - 250
+function_body_length:
+  - 120
+cyclomatic_complexity:
+  - 120
+type_name:
+  max_length:
+    - 50
