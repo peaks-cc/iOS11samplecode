@@ -182,10 +182,11 @@
                                     <constraint firstItem="0em-Nh-4yF" firstAttribute="top" secondItem="gH8-GA-Txo" secondAttribute="top" id="NUz-b9-eOF"/>
                                     <constraint firstAttribute="trailing" secondItem="0em-Nh-4yF" secondAttribute="trailing" id="T1L-fa-D3X"/>
                                     <constraint firstItem="0em-Nh-4yF" firstAttribute="leading" secondItem="gH8-GA-Txo" secondAttribute="leading" id="Z4c-Cy-B7S"/>
-                                    <constraint firstItem="auS-e9-LIs" firstAttribute="leading" secondItem="gH8-GA-Txo" secondAttribute="leading" id="cwB-HG-ZkX"/>
+                                    <constraint firstItem="auS-e9-LIs" firstAttribute="leading" secondItem="LBJ-3o-kam" secondAttribute="leading" id="cwB-HG-ZkX"/>
                                     <constraint firstAttribute="bottom" secondItem="0em-Nh-4yF" secondAttribute="bottom" id="m8g-rZ-hpx"/>
-                                    <constraint firstAttribute="trailing" secondItem="auS-e9-LIs" secondAttribute="trailing" id="uwi-v9-jAd"/>
+                                    <constraint firstItem="LBJ-3o-kam" firstAttribute="trailing" secondItem="auS-e9-LIs" secondAttribute="trailing" id="uwi-v9-jAd"/>
                                 </constraints>
+                                <viewLayoutGuide key="safeArea" id="LBJ-3o-kam"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="0.50196078431372548" green="0.50196078431372548" blue="0.50196078431372548" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
