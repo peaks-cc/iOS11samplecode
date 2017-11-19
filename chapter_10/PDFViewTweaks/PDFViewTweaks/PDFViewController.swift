@@ -25,7 +25,7 @@ class PDFViewController: UIViewController {
         navigationController?.hidesBarsOnTap = true
         navigationController?.hidesBarsOnSwipe = true
 
-        if let url = Bundle.main.url(forResource: "iOS11programming", withExtension: "pdf") {
+        if let url = Bundle.main.url(forResource: "iOS11Programming", withExtension: "pdf") {
             pdfDocument = PDFDocument(url: url)
         }
 

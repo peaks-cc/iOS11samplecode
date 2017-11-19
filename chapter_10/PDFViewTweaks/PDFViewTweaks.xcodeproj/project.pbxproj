@@ -13,8 +13,7 @@
 		14706C851FA05ABE00553B39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14706C841FA05ABE00553B39 /* Assets.xcassets */; };
 		14706C881FA05ABE00553B39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14706C861FA05ABE00553B39 /* LaunchScreen.storyboard */; };
 		14706C901FA05BC400553B39 /* PDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14706C8F1FA05BC300553B39 /* PDFViewController.swift */; };
-		14706C921FA0613400553B39 /* chapter10.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 14706C911FA0613400553B39 /* chapter10.pdf */; };
-		14706C941FA0783E00553B39 /* iOS11programming.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 14706C931FA0783A00553B39 /* iOS11programming.pdf */; };
+		147BADB71FC1983600B3A53B /* iOS11Programming.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 147BADB61FC1983500B3A53B /* iOS11Programming.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +25,7 @@
 		14706C871FA05ABE00553B39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14706C891FA05ABE00553B39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14706C8F1FA05BC300553B39 /* PDFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFViewController.swift; sourceTree = "<group>"; };
-		14706C911FA0613400553B39 /* chapter10.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = chapter10.pdf; path = ../../../../review/iOS11_pdf1020_pages/chapter10.pdf; sourceTree = "<group>"; };
-		14706C931FA0783A00553B39 /* iOS11programming.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = iOS11programming.pdf; sourceTree = "<group>"; };
+		147BADB61FC1983500B3A53B /* iOS11Programming.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = iOS11Programming.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,8 +65,7 @@
 				14706C861FA05ABE00553B39 /* LaunchScreen.storyboard */,
 				14706C841FA05ABE00553B39 /* Assets.xcassets */,
 				14706C891FA05ABE00553B39 /* Info.plist */,
-				14706C911FA0613400553B39 /* chapter10.pdf */,
-				14706C931FA0783A00553B39 /* iOS11programming.pdf */,
+				147BADB61FC1983500B3A53B /* iOS11Programming.pdf */,
 			);
 			path = PDFViewTweaks;
 			sourceTree = "<group>";
@@ -133,9 +130,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				14706C881FA05ABE00553B39 /* LaunchScreen.storyboard in Resources */,
-				14706C921FA0613400553B39 /* chapter10.pdf in Resources */,
 				14706C851FA05ABE00553B39 /* Assets.xcassets in Resources */,
-				14706C941FA0783E00553B39 /* iOS11programming.pdf in Resources */,
+				147BADB71FC1983600B3A53B /* iOS11Programming.pdf in Resources */,
 				14706C831FA05ABE00553B39 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
