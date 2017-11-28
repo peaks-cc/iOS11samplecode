@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA57C5501F26C3F000EE946B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA57C54F1F26C3F000EE946B /* AppDelegate.swift */; };
+		BA57C5521F26C3F000EE946B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA57C5511F26C3F000EE946B /* ViewController.swift */; };
+		BA57C5551F26C3F000EE946B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA57C5531F26C3F000EE946B /* Main.storyboard */; };
+		BA57C5571F26C3F000EE946B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA57C5561F26C3F000EE946B /* Assets.xcassets */; };
+		BA57C55A1F26C3F000EE946B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA57C5581F26C3F000EE946B /* LaunchScreen.storyboard */; };
+		BA57C5651F26C3F000EE946B /* AirPlay2TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA57C5641F26C3F000EE946B /* AirPlay2TestTests.swift */; };
+		BA57C5701F26C3F000EE946B /* AirPlay2TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA57C56F1F26C3F000EE946B /* AirPlay2TestUITests.swift */; };
+		BA8579AF1F2B58E7007464FE /* SampleBufferAudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8579AE1F2B58E7007464FE /* SampleBufferAudioPlayer.swift */; };
+		BAE6F8E41F2B7B4000843319 /* source.caf in Resources */ = {isa = PBXBuildFile; fileRef = BAE6F8E31F2B7B3C00843319 /* source.caf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA57C5611F26C3F000EE946B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA57C5441F26C3F000EE946B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA57C54B1F26C3F000EE946B;
+			remoteInfo = AirPlay2Test;
+		};
+		BA57C56C1F26C3F000EE946B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA57C5441F26C3F000EE946B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA57C54B1F26C3F000EE946B;
+			remoteInfo = AirPlay2Test;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA57C54C1F26C3F000EE946B /* AirPlay2Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirPlay2Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA57C54F1F26C3F000EE946B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA57C5511F26C3F000EE946B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA57C5541F26C3F000EE946B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA57C5561F26C3F000EE946B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA57C5591F26C3F000EE946B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA57C55B1F26C3F000EE946B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA57C5601F26C3F000EE946B /* AirPlay2TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirPlay2TestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA57C5641F26C3F000EE946B /* AirPlay2TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirPlay2TestTests.swift; sourceTree = "<group>"; };
+		BA57C5661F26C3F000EE946B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA57C56B1F26C3F000EE946B /* AirPlay2TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirPlay2TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA57C56F1F26C3F000EE946B /* AirPlay2TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirPlay2TestUITests.swift; sourceTree = "<group>"; };
+		BA57C5711F26C3F000EE946B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA8579AE1F2B58E7007464FE /* SampleBufferAudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleBufferAudioPlayer.swift; sourceTree = "<group>"; };
+		BAE6F8E31F2B7B3C00843319 /* source.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = source.caf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA57C5491F26C3F000EE946B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA57C55D1F26C3F000EE946B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA57C5681F26C3F000EE946B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA57C5431F26C3F000EE946B = {
+			isa = PBXGroup;
+			children = (
+				BA57C54E1F26C3F000EE946B /* AirPlay2Test */,
+				BA57C5631F26C3F000EE946B /* AirPlay2TestTests */,
+				BA57C56E1F26C3F000EE946B /* AirPlay2TestUITests */,
+				BA57C54D1F26C3F000EE946B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA57C54D1F26C3F000EE946B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA57C54C1F26C3F000EE946B /* AirPlay2Test.app */,
+				BA57C5601F26C3F000EE946B /* AirPlay2TestTests.xctest */,
+				BA57C56B1F26C3F000EE946B /* AirPlay2TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA57C54E1F26C3F000EE946B /* AirPlay2Test */ = {
+			isa = PBXGroup;
+			children = (
+				BAE6F8E31F2B7B3C00843319 /* source.caf */,
+				BA8579AE1F2B58E7007464FE /* SampleBufferAudioPlayer.swift */,
+				BA57C54F1F26C3F000EE946B /* AppDelegate.swift */,
+				BA57C5511F26C3F000EE946B /* ViewController.swift */,
+				BA57C5531F26C3F000EE946B /* Main.storyboard */,
+				BA57C5561F26C3F000EE946B /* Assets.xcassets */,
+				BA57C5581F26C3F000EE946B /* LaunchScreen.storyboard */,
+				BA57C55B1F26C3F000EE946B /* Info.plist */,
+			);
+			path = AirPlay2Test;
+			sourceTree = "<group>";
+		};
+		BA57C5631F26C3F000EE946B /* AirPlay2TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA57C5641F26C3F000EE946B /* AirPlay2TestTests.swift */,
+				BA57C5661F26C3F000EE946B /* Info.plist */,
+			);
+			path = AirPlay2TestTests;
+			sourceTree = "<group>";
+		};
+		BA57C56E1F26C3F000EE946B /* AirPlay2TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA57C56F1F26C3F000EE946B /* AirPlay2TestUITests.swift */,
+				BA57C5711F26C3F000EE946B /* Info.plist */,
+			);
+			path = AirPlay2TestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA57C54B1F26C3F000EE946B /* AirPlay2Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA57C5741F26C3F000EE946B /* Build configuration list for PBXNativeTarget "AirPlay2Test" */;
+			buildPhases = (
+				BA57C5481F26C3F000EE946B /* Sources */,
+				BA57C5491F26C3F000EE946B /* Frameworks */,
+				BA57C54A1F26C3F000EE946B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirPlay2Test;
+			productName = AirPlay2Test;
+			productReference = BA57C54C1F26C3F000EE946B /* AirPlay2Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA57C55F1F26C3F000EE946B /* AirPlay2TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA57C5771F26C3F000EE946B /* Build configuration list for PBXNativeTarget "AirPlay2TestTests" */;
+			buildPhases = (
+				BA57C55C1F26C3F000EE946B /* Sources */,
+				BA57C55D1F26C3F000EE946B /* Frameworks */,
+				BA57C55E1F26C3F000EE946B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA57C5621F26C3F000EE946B /* PBXTargetDependency */,
+			);
+			name = AirPlay2TestTests;
+			productName = AirPlay2TestTests;
+			productReference = BA57C5601F26C3F000EE946B /* AirPlay2TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA57C56A1F26C3F000EE946B /* AirPlay2TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA57C57A1F26C3F000EE946B /* Build configuration list for PBXNativeTarget "AirPlay2TestUITests" */;
+			buildPhases = (
+				BA57C5671F26C3F000EE946B /* Sources */,
+				BA57C5681F26C3F000EE946B /* Frameworks */,
+				BA57C5691F26C3F000EE946B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA57C56D1F26C3F000EE946B /* PBXTargetDependency */,
+			);
+			name = AirPlay2TestUITests;
+			productName = AirPlay2TestUITests;
+			productReference = BA57C56B1F26C3F000EE946B /* AirPlay2TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA57C5441F26C3F000EE946B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = ROLLCAKE;
+				TargetAttributes = {
+					BA57C54B1F26C3F000EE946B = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
+					};
+					BA57C55F1F26C3F000EE946B = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = BA57C54B1F26C3F000EE946B;
+					};
+					BA57C56A1F26C3F000EE946B = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = BA57C54B1F26C3F000EE946B;
+					};
+				};
+			};
+			buildConfigurationList = BA57C5471F26C3F000EE946B /* Build configuration list for PBXProject "AirPlay2Test" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA57C5431F26C3F000EE946B;
+			productRefGroup = BA57C54D1F26C3F000EE946B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA57C54B1F26C3F000EE946B /* AirPlay2Test */,
+				BA57C55F1F26C3F000EE946B /* AirPlay2TestTests */,
+				BA57C56A1F26C3F000EE946B /* AirPlay2TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA57C54A1F26C3F000EE946B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAE6F8E41F2B7B4000843319 /* source.caf in Resources */,
+				BA57C55A1F26C3F000EE946B /* LaunchScreen.storyboard in Resources */,
+				BA57C5571F26C3F000EE946B /* Assets.xcassets in Resources */,
+				BA57C5551F26C3F000EE946B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA57C55E1F26C3F000EE946B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA57C5691F26C3F000EE946B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA57C5481F26C3F000EE946B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA57C5521F26C3F000EE946B /* ViewController.swift in Sources */,
+				BA57C5501F26C3F000EE946B /* AppDelegate.swift in Sources */,
+				BA8579AF1F2B58E7007464FE /* SampleBufferAudioPlayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA57C55C1F26C3F000EE946B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA57C5651F26C3F000EE946B /* AirPlay2TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA57C5671F26C3F000EE946B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA57C5701F26C3F000EE946B /* AirPlay2TestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA57C5621F26C3F000EE946B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA57C54B1F26C3F000EE946B /* AirPlay2Test */;
+			targetProxy = BA57C5611F26C3F000EE946B /* PBXContainerItemProxy */;
+		};
+		BA57C56D1F26C3F000EE946B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA57C54B1F26C3F000EE946B /* AirPlay2Test */;
+			targetProxy = BA57C56C1F26C3F000EE946B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA57C5531F26C3F000EE946B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA57C5541F26C3F000EE946B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA57C5581F26C3F000EE946B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA57C5591F26C3F000EE946B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA57C5721F26C3F000EE946B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA57C5731F26C3F000EE946B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA57C5751F26C3F000EE946B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = UY6GE279QQ;
+				INFOPLIST_FILE = AirPlay2Test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.rollcake.AirPlay2Test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA57C5761F26C3F000EE946B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = UY6GE279QQ;
+				INFOPLIST_FILE = AirPlay2Test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.rollcake.AirPlay2Test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BA57C5781F26C3F000EE946B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = UY6GE279QQ;
+				INFOPLIST_FILE = AirPlay2TestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.rollcake.AirPlay2TestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirPlay2Test.app/AirPlay2Test";
+			};
+			name = Debug;
+		};
+		BA57C5791F26C3F000EE946B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = UY6GE279QQ;
+				INFOPLIST_FILE = AirPlay2TestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.rollcake.AirPlay2TestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirPlay2Test.app/AirPlay2Test";
+			};
+			name = Release;
+		};
+		BA57C57B1F26C3F000EE946B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = UY6GE279QQ;
+				INFOPLIST_FILE = AirPlay2TestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.rollcake.AirPlay2TestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AirPlay2Test;
+			};
+			name = Debug;
+		};
+		BA57C57C1F26C3F000EE946B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = UY6GE279QQ;
+				INFOPLIST_FILE = AirPlay2TestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.rollcake.AirPlay2TestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AirPlay2Test;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA57C5471F26C3F000EE946B /* Build configuration list for PBXProject "AirPlay2Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA57C5721F26C3F000EE946B /* Debug */,
+				BA57C5731F26C3F000EE946B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA57C5741F26C3F000EE946B /* Build configuration list for PBXNativeTarget "AirPlay2Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA57C5751F26C3F000EE946B /* Debug */,
+				BA57C5761F26C3F000EE946B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA57C5771F26C3F000EE946B /* Build configuration list for PBXNativeTarget "AirPlay2TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA57C5781F26C3F000EE946B /* Debug */,
+				BA57C5791F26C3F000EE946B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA57C57A1F26C3F000EE946B /* Build configuration list for PBXNativeTarget "AirPlay2TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA57C57B1F26C3F000EE946B /* Debug */,
+				BA57C57C1F26C3F000EE946B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA57C5441F26C3F000EE946B /* Project object */;
+}
