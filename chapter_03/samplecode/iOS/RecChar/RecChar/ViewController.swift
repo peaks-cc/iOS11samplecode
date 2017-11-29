@@ -62,6 +62,15 @@ class ViewController: UIViewController {
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        for x in 0..<ViewController.width {
+            for y in 0..<ViewController.height {
+                pixelBuffer32bit[4 * y + 4 * x * ViewController.width + 0] = 255
+                pixelBuffer32bit[4 * y + 4 * x * ViewController.width + 1] = 0
+                pixelBuffer32bit[4 * y + 4 * x * ViewController.width + 2] = 0
+                pixelBuffer32bit[4 * y + 4 * x * ViewController.width + 3] = 0
+            }
+        }
+        updateImage()
     }
 
     override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
@@ -112,16 +121,6 @@ class ViewController: UIViewController {
         } catch {
             print(error)
         }
-        
-        for x in 0..<ViewController.width {
-            for y in 0..<ViewController.height {
-                pixelBuffer32bit[4 * y + 4 * x * ViewController.width + 0] = 255
-                pixelBuffer32bit[4 * y + 4 * x * ViewController.width + 1] = 0
-                pixelBuffer32bit[4 * y + 4 * x * ViewController.width + 2] = 0
-                pixelBuffer32bit[4 * y + 4 * x * ViewController.width + 3] = 0
-            }
-        }
-        updateImage()
     }
     func testMNIST() {
         do {
