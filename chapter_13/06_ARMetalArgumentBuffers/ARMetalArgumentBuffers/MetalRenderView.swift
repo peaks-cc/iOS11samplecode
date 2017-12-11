@@ -74,6 +74,7 @@ class MetalRenderView: MTKView, MTKViewDelegate {
         renderDescriptor = descriptor
 
         let samplerDescriptor = MTLSamplerDescriptor()
+        samplerDescriptor.supportArgumentBuffers = true
         sampler = device.makeSamplerState(descriptor: samplerDescriptor)!
         
         guard let fragmentFunction = renderDescriptor?.fragmentFunction else {return}
